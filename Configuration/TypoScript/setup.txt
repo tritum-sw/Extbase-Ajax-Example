@@ -1,0 +1,15 @@
+plugin.tx_asajaxexample.settings = COA
+
+ajax = PAGE
+ajax {
+
+    typeNum = 99
+    config {
+        disableAllHeaderCode = 1
+        additionalHeaders = Content-type:application/json
+        xhtml_cleaning = 0
+        admPanel = 0
+    }
+
+    10 < tt_content.list.20.asajaxexample_pi1
+}
